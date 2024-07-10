@@ -5,10 +5,8 @@
     padding: 0;
     font-family: "Azeret Mono", monospace;
     box-sizing: border-box;
-};
-.btn{
-
 }
+  /*nav part start*/
 nav{
     height: 100px;
   width: 1326px;
@@ -20,7 +18,7 @@ nav{
 
 nav h1{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+font-family: "Azeret Mono", monospace;
 font-size: 28px;
 font-weight: 800;
 line-height: 33px;
@@ -50,3 +48,52 @@ opacity: 0.8;
 text-decoration: none;
 
 }
+  /*nav part end*/
+  
+    /*hero part start*/
+.group-container{
+
+    margin-bottom: 74px;
+    background-image: url("../afrin_assignment-1/assets/Hero-bg.png");
+    margin-bottom: 78px;
+    position: absolute;
+    width: 1440px;
+    height: 652px;
+    left: 0;
+    right: 0;top: 131px;
+    bottom: 4462px;
+  } 
+  .group-content{
+  text-align: center;
+  padding: 26px 21px;
+  width: 90%;
+  height:240px;
+  margin: 0 auto;
+  }
+  .group-content h1{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .group-content p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .group-content button{
+    background: rgb(13, 19, 33);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  width: 208px;
+  height: 66px;
+  border-radius: 8px;
+  
+  }
+  /*hero part end*/
